@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1128px;
+  gap: 24px;
+  margin: 0 auto;
+}
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
+.gallery-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
