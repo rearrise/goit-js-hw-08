@@ -94,6 +94,9 @@ imageElem.addEventListener('click', event => {
   if (event.target.tagName !== 'IMG') {
     return;
   }
+  const largeImage = event.target.dataset.source;
+
+  console.log('Large Image Link:', largeImage);
 
   const instance = basicLightbox.create(`
   <img src="${event.target.dataset.source}" width="800">
